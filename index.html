@@ -26,6 +26,8 @@
 
 <!--<p class="errorMessage">Please enable JavaScript to view this page correctly.</p>-->
 
+<div class="errorMessage">Sorry, this page requries JavaScript</div>
+
 <div class="weatherContainer">
 
     <i class="wi wi-day-cloudy"></i>
@@ -53,12 +55,33 @@
 
 </div>
 
+<div class="weatherLocation">
+	<h2>Enter in your Zipcode below. <span class="gpsIntro">Or use GPS button below.</span></h2>
+	<div class="zipcodeForm">
+    	<input type="number" placeholder="Zipcode" class="locationZipcode">
+		<button class="locationZipcodeSubmit">Find</button>
+    </div>
+    <div class="gpsForm">
+		<button class="locationGPS">GPS Help! Where am I?</button>
+    </div>
+    <div class="measurementForm">
+  		<label>
+			<input type="radio" name="measureSystem" value="metric" id="measureSystem_0" checked>Metric</label>
+  		<label>
+			<input type="radio" name="measureSystem" value="imperial" id="measureSystem_1">Imperial</label>
+    </div>
+</div>
+
+<div class="weatherUpdate">
+	<button class="updateWeather">Update</button>
+	<button class="startOver">Change Location</button>
+</div>
 
 
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+       <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
-        <script src="js/main.js"></script>
+        <script src="js/weather.js"></script>
     </body>
 </html>

@@ -154,6 +154,15 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 
+.errorMessage {
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.2em;
+    line-height: 1em;
+    background-color:lightblue;
+    padding:10px 20px;
+    text-align: center;
+}
+
 .weatherContainer {
     padding:40px 20px;
     max-width: 1200px;
@@ -185,6 +194,21 @@ h2.description {
     font-size: 1.8em;
     line-height: 1em;
 }
+
+.weatherLocation {
+
+}
+
+.locationZipcode {
+    font-family: 'Questrial', sans-serif;
+    font-size:4em;
+}
+
+
+
+
+
+
 
 
 
