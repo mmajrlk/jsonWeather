@@ -30,31 +30,32 @@
 
 <div class="weatherContainer">
 
-    <i class="wi wi-day-cloudy"></i>
+    <i class="wi wi-owm-500"></i>
 
     <div class="weatherReport">
 
         <h1 class="locationName">East Troy</h1>
-        <p class="coord">(lon: -88.41 lat: 42.79)</p>
+        <p class="coord">(lon: <span class="data0">-88.41</span> lat: <span class="data1">42.79</span>)</p>
         
-        <h2 class="description">Clouds</h2>
+        <h2 class="description"><span class="data0">Clouds</span> (<span class="data1">overcast</span>)</h2>
         
-        <p class="currentTemp">Current temperature: 44&deg;</p>
-        <p class="maxMinTemp">Max temp: 44&deg;<br />
-        Min temp: 22&deg;</p>
+        <p class="currentTemp">Current temperature: <span class="data0">44</span></p>
+        <p class="maxMinTemp">Max temp: <span class="data0">44</span><br />
+        Min temp: <span class="data1">22</span></p>
 
-        <p class="wind">Wind speed: 5.6 mph<br />
-        Wind direction: 49&deg;</p>
+        <p class="wind">Wind speed: <span class="data0">5.6</span><br />
+        Wind direction: <span class="data1">49</span></p>
 
-        <p class="rainSnow">Rain (last 3 hours): 2in<br />
-        Snow (last 3 hours): 2 in</p>
+        <p class="rainAmount">Rain (last hour): <span class="data0">2</span></p>
+        <p class="snowAmount">Snow (last hour): <span class="data0">2</span></p>
 
-        <p class="updateTime">Last updated: 12:22:23</p>
+        <p class="updateTime">Last updated: <span class="data0">12:22:23<span></p>
 
     </div>
 
 </div>
 
+<div class="weatherLocationContainer">
 <div class="weatherLocation">
 	<h2>Enter in your Zipcode below. <span class="gpsIntro">Or use GPS button below.</span></h2>
 	<div class="zipcodeForm">
@@ -75,6 +76,7 @@
 <div class="weatherUpdate">
 	<button class="updateWeather">Update</button>
 	<button class="startOver">Change Location</button>
+</div>
 </div>
 
 
